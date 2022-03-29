@@ -12,8 +12,7 @@ const caesarModule = (function () {
 
     const actualAlphabet = "abcdefghijklmnopqrstuvwxyz".split("");
 
-    input = input.toLowerCase();
-    const splitMessage = input.split(" ");
+    const splitMessage = input.toLowerCase().split(" ");
     if (!encode) shift = -shift;
 
     let caesarMessage = [];
